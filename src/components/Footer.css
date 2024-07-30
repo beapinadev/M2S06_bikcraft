@@ -1,0 +1,27 @@
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    color: white;
+}
+
+.footer-menu {
+    display: flex;
+    gap: 15px;
+    margin-right: 50px;
+}
+.footer-menu li {
+    margin-left: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
